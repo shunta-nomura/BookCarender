@@ -11,18 +11,18 @@
 		A2F290AD28982C150081364B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F290AC28982C150081364B /* ContentView.swift */; };
 		A2F290AF28982C180081364B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F290AE28982C180081364B /* Assets.xcassets */; };
 		A2F290B228982C180081364B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F290B128982C180081364B /* Preview Assets.xcassets */; };
-		E1EEC8BBC32FCFAAE1CED6C5 /* Pods_BookCarender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6721CDCBDB573B48BE4C9E /* Pods_BookCarender.framework */; };
+		FBE804C51BB09953A3EFD5D8 /* Pods_BookCarender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74661298A46734917EEE774 /* Pods_BookCarender.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30B99A76C9994950ED09F12B /* Pods-BookCarender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookCarender.release.xcconfig"; path = "Target Support Files/Pods-BookCarender/Pods-BookCarender.release.xcconfig"; sourceTree = "<group>"; };
-		8B666617632D13F69BEAB68A /* Pods-BookCarender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookCarender.debug.xcconfig"; path = "Target Support Files/Pods-BookCarender/Pods-BookCarender.debug.xcconfig"; sourceTree = "<group>"; };
-		9B6721CDCBDB573B48BE4C9E /* Pods_BookCarender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookCarender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B32084952436724CCCA22E9 /* Pods-BookCarender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookCarender.debug.xcconfig"; path = "Target Support Files/Pods-BookCarender/Pods-BookCarender.debug.xcconfig"; sourceTree = "<group>"; };
+		8D2316217563967198516354 /* Pods-BookCarender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookCarender.release.xcconfig"; path = "Target Support Files/Pods-BookCarender/Pods-BookCarender.release.xcconfig"; sourceTree = "<group>"; };
 		A2F290A728982C150081364B /* BookCarender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookCarender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F290AA28982C150081364B /* BookCarenderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCarenderApp.swift; sourceTree = "<group>"; };
 		A2F290AC28982C150081364B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2F290AE28982C180081364B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2F290B128982C180081364B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A74661298A46734917EEE774 /* Pods_BookCarender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookCarender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,20 +30,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1EEC8BBC32FCFAAE1CED6C5 /* Pods_BookCarender.framework in Frameworks */,
+				FBE804C51BB09953A3EFD5D8 /* Pods_BookCarender.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0452B37ACCF78EA0D32350E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A74661298A46734917EEE774 /* Pods_BookCarender.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A2F2909E28982C140081364B = {
 			isa = PBXGroup;
 			children = (
 				A2F290A928982C150081364B /* BookCarender */,
 				A2F290A828982C150081364B /* Products */,
 				AFE28D5227B5DDAD66E86A67 /* Pods */,
-				B038FA012CF78F952353A6EA /* Frameworks */,
+				0452B37ACCF78EA0D32350E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,19 +85,10 @@
 		AFE28D5227B5DDAD66E86A67 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8B666617632D13F69BEAB68A /* Pods-BookCarender.debug.xcconfig */,
-				30B99A76C9994950ED09F12B /* Pods-BookCarender.release.xcconfig */,
+				7B32084952436724CCCA22E9 /* Pods-BookCarender.debug.xcconfig */,
+				8D2316217563967198516354 /* Pods-BookCarender.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		B038FA012CF78F952353A6EA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9B6721CDCBDB573B48BE4C9E /* Pods_BookCarender.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +98,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2F290B528982C180081364B /* Build configuration list for PBXNativeTarget "BookCarender" */;
 			buildPhases = (
-				8A58304DE177C155A8C5EE9B /* [CP] Check Pods Manifest.lock */,
+				1A7E245B59A2F28C28BC16F5 /* [CP] Check Pods Manifest.lock */,
 				A2F290A328982C140081364B /* Sources */,
 				A2F290A428982C140081364B /* Frameworks */,
 				A2F290A528982C140081364B /* Resources */,
@@ -159,7 +158,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8A58304DE177C155A8C5EE9B /* [CP] Check Pods Manifest.lock */ = {
+		1A7E245B59A2F28C28BC16F5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -314,13 +313,14 @@
 		};
 		A2F290B628982C180081364B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B666617632D13F69BEAB68A /* Pods-BookCarender.debug.xcconfig */;
+			baseConfigurationReference = 7B32084952436724CCCA22E9 /* Pods-BookCarender.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BookCarender/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -343,13 +343,14 @@
 		};
 		A2F290B728982C180081364B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30B99A76C9994950ED09F12B /* Pods-BookCarender.release.xcconfig */;
+			baseConfigurationReference = 8D2316217563967198516354 /* Pods-BookCarender.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BookCarender/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
