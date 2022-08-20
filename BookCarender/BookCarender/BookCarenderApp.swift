@@ -20,8 +20,9 @@ struct BookCarenderApp: App {
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
-        print("起動処理完了")
-
+        let db = DBHelper()
+        db.creatDb()
+        db.createTable()
         return true
     }
 }
