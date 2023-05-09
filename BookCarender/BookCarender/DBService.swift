@@ -32,9 +32,13 @@ class DBHelper {
         }
             }
         func createTable() {
-        let query = "create table if not exists grade(id integer primary key autoincrement, name text, result text, list text);"
+        let mstBook = "create table if not exists mst_book(id integer primary key autoincrement, book_title text, book_image text, book_description text, book_image text, created_time integer, update_time integer, update_count integer, delete_flg integer);"
+            createTable(insertSqlCode: mstBook)
+            
+    }
+    private func createTable(insertSqlCode: String) {
         var createTable : OpaquePointer? = nil
-                if sqlite3_prepare_v2(self.db, query, -1, &createTable, nil) == SQLITE_OK {
+                if sqlite3_prepare_v2(self.db, insertSqlCode, -1, &createTable, nil) == SQLITE_OK {
             if sqlite3_step(createTable) == SQLITE_DONE {
                 print("Table created")
             } else {

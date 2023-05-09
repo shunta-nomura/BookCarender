@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A225FAC028BA310000929917 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A225FABF28BA310000929917 /* BookDetailView.swift */; };
+		A239287B28DF596A006FDF7C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A239287A28DF596A006FDF7C /* SwiftUIView.swift */; };
+		A254FE0629463F5000785A1F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254FE0529463F5000785A1F /* AppState.swift */; };
+		A2D244EE296602040060929C /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D244ED296602040060929C /* Book.swift */; };
 		A2F290AB28982C150081364B /* BookCarenderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F290AA28982C150081364B /* BookCarenderApp.swift */; };
-		A2F290AD28982C150081364B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F290AC28982C150081364B /* ContentView.swift */; };
 		A2F290AF28982C180081364B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F290AE28982C180081364B /* Assets.xcassets */; };
 		A2F290B228982C180081364B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F290B128982C180081364B /* Preview Assets.xcassets */; };
 		A2F290C028AEA1F20081364B /* DBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F290BF28AEA1F20081364B /* DBService.swift */; };
+		A2F5FA7429C0B9C300A9B86B /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = A2F5FA7329C0B9C300A9B86B /* SwiftyJSON */; };
+		A2F5FA7729C0BCFF00A9B86B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A2F5FA7629C0BCFF00A9B86B /* SDWebImageSwiftUI */; };
 		EAF4A9B46DEC21CB209E96A8 /* Pods_BookCarender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B3A97A862E9249DBB14756 /* Pods_BookCarender.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26B3A97A862E9249DBB14756 /* Pods_BookCarender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookCarender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CF57781FCBD967BEBF7B49 /* Pods-BookCarender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookCarender.debug.xcconfig"; path = "Target Support Files/Pods-BookCarender/Pods-BookCarender.debug.xcconfig"; sourceTree = "<group>"; };
+		A206CA402933DD5000A3F69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A225FABF28BA310000929917 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		A239287A28DF596A006FDF7C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		A24E83DC29214BAF00A44ADA /* ReactiveObjC */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = ReactiveObjC; path = ../../../../../Applications/VOICEVOX.app/Contents/Frameworks/ReactiveObjC.framework/ReactiveObjC; sourceTree = "<group>"; };
+		A254FE0529463F5000785A1F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A2D244ED296602040060929C /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		A2F290A728982C150081364B /* BookCarender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookCarender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F290AA28982C150081364B /* BookCarenderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCarenderApp.swift; sourceTree = "<group>"; };
-		A2F290AC28982C150081364B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2F290AE28982C180081364B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2F290B128982C180081364B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2F290BF28AEA1F20081364B /* DBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBService.swift; sourceTree = "<group>"; };
@@ -32,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F5FA7729C0BCFF00A9B86B /* SDWebImageSwiftUI in Frameworks */,
+				A2F5FA7429C0B9C300A9B86B /* SwiftyJSON in Frameworks */,
 				EAF4A9B46DEC21CB209E96A8 /* Pods_BookCarender.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +51,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A225FAC128BA329F00929917 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				A225FAC228BA32DB00929917 /* bookImage */,
+			);
+			path = Img;
+			sourceTree = "<group>";
+		};
+		A225FAC228BA32DB00929917 /* bookImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bookImage;
+			sourceTree = "<group>";
+		};
 		A2F2909E28982C140081364B = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +87,17 @@
 		A2F290A928982C150081364B /* BookCarender */ = {
 			isa = PBXGroup;
 			children = (
+				A206CA402933DD5000A3F69E /* Info.plist */,
+				A225FAC128BA329F00929917 /* Img */,
 				A2F290AA28982C150081364B /* BookCarenderApp.swift */,
 				A2F290BF28AEA1F20081364B /* DBService.swift */,
-				A2F290AC28982C150081364B /* ContentView.swift */,
+				A225FABF28BA310000929917 /* BookDetailView.swift */,
+				A254FE0529463F5000785A1F /* AppState.swift */,
+				A239287A28DF596A006FDF7C /* SwiftUIView.swift */,
+				A24E83DC29214BAF00A44ADA /* ReactiveObjC */,
 				A2F290AE28982C180081364B /* Assets.xcassets */,
 				A2F290B028982C180081364B /* Preview Content */,
+				A2D244ED296602040060929C /* Book.swift */,
 			);
 			path = BookCarender;
 			sourceTree = "<group>";
@@ -111,6 +144,10 @@
 			dependencies = (
 			);
 			name = BookCarender;
+			packageProductDependencies = (
+				A2F5FA7329C0B9C300A9B86B /* SwiftyJSON */,
+				A2F5FA7629C0BCFF00A9B86B /* SDWebImageSwiftUI */,
+			);
 			productName = BookCarender;
 			productReference = A2F290A728982C150081364B /* BookCarender.app */;
 			productType = "com.apple.product-type.application";
@@ -139,6 +176,10 @@
 				Base,
 			);
 			mainGroup = A2F2909E28982C140081364B;
+			packageReferences = (
+				A2F5FA7229C0B9C200A9B86B /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				A2F5FA7529C0BCFF00A9B86B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = A2F290A828982C150081364B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -190,9 +231,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2F290AD28982C150081364B /* ContentView.swift in Sources */,
+				A225FAC028BA310000929917 /* BookDetailView.swift in Sources */,
+				A254FE0629463F5000785A1F /* AppState.swift in Sources */,
+				A2D244EE296602040060929C /* Book.swift in Sources */,
 				A2F290AB28982C150081364B /* BookCarenderApp.swift in Sources */,
 				A2F290C028AEA1F20081364B /* DBService.swift in Sources */,
+				A239287B28DF596A006FDF7C /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +371,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = BookCarender/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -357,7 +401,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = BookCarender/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -397,6 +441,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2F5FA7229C0B9C200A9B86B /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		A2F5FA7529C0BCFF00A9B86B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A2F5FA7329C0B9C300A9B86B /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2F5FA7229C0B9C200A9B86B /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		A2F5FA7629C0BCFF00A9B86B /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2F5FA7529C0BCFF00A9B86B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2F2909F28982C140081364B /* Project object */;
 }

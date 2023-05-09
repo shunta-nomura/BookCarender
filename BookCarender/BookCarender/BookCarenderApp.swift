@@ -7,12 +7,13 @@
 
 import SwiftUI
 
+@available(iOS 16.0, *)
 @main
 struct BookCarenderApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SwiftUiView()
         }
     }
 }
